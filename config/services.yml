@@ -4,10 +4,11 @@ services:
         arguments:
             - '@config'
             - '@dbal.conn'
-            - '@log'            
+            - '@log'
+            - '@notification_manager'
             - '@template'
             - '@user'
             - '%core.root_path%'
             - '%core.php_ext%'
         tags:
-            - { name: event.listener }            
+            - { name: event.listener }

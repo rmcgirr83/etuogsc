@@ -3,8 +3,8 @@
     "type": "phpbb-extension",
     "description": "Will send an email to users that are either added, removed, promoted or demoted in a user group",
     "version": "1.0.0",
-    "time": "2017-12-04",
-    "license": "GPL-2.0",
+    "time": "2020-04-18",
+    "license": "GPL-2.0-only",
     "authors": [
         {
             "name": "Rich McGirr",
@@ -17,7 +17,7 @@
     "extra": {
         "display-name": "Email To User On Group Status Change",
         "soft-require": {
-            "phpbb/phpbb": ">=3.2.0,<3.3"
+            "phpbb/phpbb": ">=3.2.0"
         }
     }
 }
